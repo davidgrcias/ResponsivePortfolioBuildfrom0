@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <input type="radio" name = "radio" id = "open">
+    <input type="radio" name = "radio" id = "close" checked>
+    <!-- nav -->
+    <nav>
+      <div class="left-side">
+        <a href=""><h1>David G.S</h1></a>
+      </div>
+      <div class="right-side">
+        <div class="nav-link-wrapper"><a href="#home" class = "page-scroll">Home</a></div>
+        <div class="nav-link-wrapper"><a href="#about" class = "page-scroll">About</a></div>
+        <div class="nav-link-wrapper"><a href="#projects" class = "page-scroll">Projects</a></div>
+        <div class="nav-link-wrapper"><a href="#contact" class = "page-scroll">Contact</a></div>
+      </div>
+      <label for = "open" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <label for="close" class = "cross">
+        <span></span>
+        <span></span>
+      </label>
+    </nav>
+
+    <!-- home -->
+    <div class="container-home" id = "home">
+      <img src="img/profil.jpg" alt="">
+      <h1>David Garcia Saragih</h1>
+      <p>Youtuber | Web Developer | Designer</p>
+    </div>
+
+    <!-- about -->
+    <div class="container-about" id = "about">
+      <h1>About</h1>
+      <hr class="split">
+      <div class="text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis nobis, vero eveniet. Eaque et provident facere vel, laborum error itaque molestias illum illo placeat repellat voluptate saepe veritatis ipsa quaerat eligendi eius ex asperiores dicta earum labore cupiditate! Ex, optio.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum sequi minima, minus aperiam unde odit labore quos. Laboriosam delectus, fuga quaerat? Odit qui officia aspernatur, omnis. Veniam accusantium itaque laborum, corporis neque et nesciunt delectus eos, ad iure quae distinctio eligendi excepturi! Dolor quam enim laboriosam voluptas, incidunt pariatur optio?</p>
+      </div>
+    </div>
+
+    <!-- projects -->
+    <div class="container-projects" id = "projects">
+      <h1>Projects</h1>
+      <hr class="split">
+      <div class="cards">
+
+        <a href="">
+          <div class="card">
+            <img src="img/gambar1.jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="card">
+            <img src="img/gambar2.jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="card">
+            <img src="img/gambar3.jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="card">
+            <img src="img/gambar4.jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="card">
+            <img src="img/gambar5.jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="card">
+            <img src="img/gambar6.jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="card">
+            <img src="img/gambar7.jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="card">
+            <img src="img/gambar8.jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="card">
+            <img src="img/gambar9.jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div class="container-contact" id = "contact">
+      <h1>Contact</h1>
+      <hr class="split">
+
+      <form action="" method = "post">
+
+        <label for="">Name</label>
+        <input type="text" placeholder = "Mike Banning">
+
+        <label for="">Phone Number</label>
+        <input type="text" placeholder = "0813********">
+
+        <label for="">Email</label>
+        <input type="text" placeholder = "example@gmail.com">
+
+        <label for="">Message</label>
+        <textarea rows="8" cols="80" placeholder = "Message"></textarea>
+
+        <button type = "submit">Confirm</button>
+      </form>
+
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <p>Copyright 2021 | Built by David</p>
+    </footer>
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src = "script.js"> </script>
+  </body>
+</html>
