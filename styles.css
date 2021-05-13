@@ -259,9 +259,6 @@ nav label{
     align-items: center;
     flex-wrap: wrap;
   }
-  nav .right-side .nav-link-wrapper a{
-    padding: 25px 0px;
-  }
   .container-about .text p{
     width: 94%;
   }
